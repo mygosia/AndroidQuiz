@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Quiz</string>
+    <string name="title">Kawia domowa - quiz</string>
+    <string name="inputName">Jak masz na imię?</string>
+    <string name="qsn1">Jak brzmi łacińska nazwa Twojego zwierzątka?</string>
+    <string name="qsn2">Jaka jest dugość życia świnek?</string>
+    <string name="answ_2_a">1 - 3 lat</string>
+    <string name="answ_2_b">3 - 6 lat</string>
+    <string name="answ_2_c">6 - 9 lat</string>
+    <string name="answ_2_d">9 - 12 lat</string>
+    <string name="qsn3">Większym kuzynem świnek jest:</string>
+    <string name="answ_3_a">Zając</string>
+    <string name="answ_3_b">Kapibara</string>
+    <string name="answ_3_c">Królik</string>
+    <string name="answ_3_d">Mara patagońska</string>
+    <string name="qsn4">Zęby kawii rosną całe życie.</string>
+    <string name="answ_4_a">Tak, ale bardzo wolno.</string>
+    <string name="answ_4_b">Tak, około centymetr na miesiąc.</string>
+    <string name="answ_4_c">To nieprawda.</string>
+    <string name="answ_4_d">Tak, około 20 cm na rok.</string>
+    <string name="qsn5">Świnki morskie mają przewód pokarmowy podobny do:</string>
+    <string name="answ_5_a">Krowy.</string>
+    <string name="answ_5_b">Królika</string>
+    <string name="answ_5_c">Konia</string>
+    <string name="answ_5_d">Jelenia.</string>
+    <string name="checkBtn">Sprawdź!</string>
+    <string name="ans1">Napisz odpowiedź.</string>
+</resources>
