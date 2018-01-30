@@ -32,6 +32,8 @@
 
     <string name="checkBtn">Check!</string>
 
+    <string name="stringAnsw">, You answered correctly on \u0020</string>
+    <string name="stringAnsw2">"\u0020 questions!"</string>
 
 
 </resources>

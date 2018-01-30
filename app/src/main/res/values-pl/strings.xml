@@ -26,4 +26,6 @@
     <string name="answ_5_d">Jelenia.</string>
     <string name="checkBtn">Sprawdź!</string>
     <string name="ans1">Napisz odpowiedź.</string>
+    <string name="stringAnsw">, odpowiedziałeś prawidłowo na \\u0020</string>
+    <string name="stringAnsw2">\\u0020 pytań!</string>
 </resources>

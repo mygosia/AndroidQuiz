@@ -95,7 +95,10 @@ public class MainActivity extends AppCompatActivity {
 // Displaing score
     public void displayScore (String userName, int allScore) {
         TextView scoreTextView = findViewById(R.id.scoreTextView);
-        scoreTextView.setText(userName + ", You answered correctly on " + allScore + " questions!");
+        String stringAnsw = getResources().getString(R.string.stringAnsw);
+        String stringAnsw2 = getResources().getString(R.string.stringAnsw2);
+
+        scoreTextView.setText(userName + stringAnsw + allScore + stringAnsw2);
 
         TextView percentageScore = findViewById(R.id.percentage);
         percentageScore.setText(allScore * 100 / 5 + "%");
