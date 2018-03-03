@@ -8,6 +8,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,6 +62,11 @@ public class MainActivity extends AppCompatActivity {
 
         int allScore = allPoints( latinNameStr,  anw2nd, hareIsChecked, rabbitIsChecked, cabybaraIsChecked,  maraIsChecked,  ans4rd,  ans5th);
 
+        //Displaying toast
+        String percentScore = Integer.toString(allScore * 100 / 5);
+        Toast.makeText(getApplicationContext(), percentScore + "%", Toast.LENGTH_SHORT).show();
+
+        //Displaying score
         displayScore(userName,allScore);
     }
 
@@ -68,10 +74,10 @@ public class MainActivity extends AppCompatActivity {
     public int allPoints (String latinNameStr, boolean anw2nd, boolean hareIsChecked, boolean rabbitIsChecked,  boolean cabybaraIsChecked, boolean maraIsChecked, boolean ans4rd, boolean ans5th ) {
         int score = 0;
         if (latinNameStr.equals("Cavia porcellus")) {
-            score = score + 1;
+            score++;
         }
         if (anw2nd) {
-            score = score + 1;
+            score++;
         }
         if (hareIsChecked) {
            score = score;
@@ -79,20 +85,20 @@ public class MainActivity extends AppCompatActivity {
            score = score;
         }
             else  if (cabybaraIsChecked & maraIsChecked) {
-            score = score + 1;
+            score++;
         }
         if (ans4rd) {
-            score = score + 1;
+            score++;
         }
         if (ans5th) {
-            score = score + 1;
+            score++;
         }
         return score;
 
     }
 
 
-// Displaing score
+// //Displaing score
     public void displayScore (String userName, int allScore) {
         TextView scoreTextView = findViewById(R.id.scoreTextView);
         String stringAnsw = getResources().getString(R.string.stringAnsw);
